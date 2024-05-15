@@ -1,6 +1,6 @@
 ﻿[uBlock Origin]
 ! Title: Block Outsider Intrusion into LAN
-! Last modified: %timestamp%
+! Last modified: Fri, 26 Apr 2024 07:50:47 +0000
 ! Expires: 29 days
 ! Description: Prevents public internet sites from digging into your local LAN files.
 ! Requested here: https://github.com/uBlockOrigin/uAssets/issues/4318

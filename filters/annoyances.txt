@@ -1,5 +1,5 @@
 ! Title: uBlock₀ filters – Annoyances
-! Last modified: %timestamp%
+! Last modified: Sun, 12 May 2024 14:24:59 +0000
 ! Expires: 7 days
 ! Description: |
 !   Filters optimized for uBlock Origin, to be used with Fanboy's

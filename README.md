@@ -1,51 +1,24 @@
-# uAssets
+This branch is to be used as reference content for [Content Delivery 
+Networks](https://en.wikipedia.org/wiki/Content_delivery_network) 
+hosting [uBlock Origin's own filter lists](https://github.com/uBlockOrigin/uAssets/tree/master/filters):
 
-This repository is for the resources of [uBlock Origin (uBO)](https://github.com/gorhill/uBlock). It receives all reports for new filters or existing filters that cause web page breakage. Any contributors are welcome. Contributors who are proven valuable will get write permissions to the repository.
-
-The rationale for including a specific filter in uBO's filter lists is the same as the [EasyList/EasyPrivacy policies](https://easylist.to/pages/policy.html) and also takes into account whether a filter requires uBO's extended filter syntax.
-
-It is preferred to fix filter issues in EasyList. Any filters included in uBO's filter lists must use the [extended syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax).
-
-The EasyList-compatible fixes for high-traffic websites are added to uBO filters until they become added to EasyList.
-
-uAssets will fix the following exceptions even if they do not require using the extended syntax:
-
-- Ad-Reinsertion
-- Anti-Blocker
-- Context Menu Blockage
-- Cut/Copy/Paste Blockage
-- Popups/Popunders
-- Website Breakage
-- Video Ads
-
-uAssets will not address the following:
-
-- Paywalls
-- Porn Farms
-
-#### How to correctly report an issue
-
-- Disable all other browser extensions and see if the problem still persists
-
-- How to provide troubleshooting information:
-
-  If the problem persists, then please:
-  - On the problematic website, click the uBlock Origin icon
-  - Click the chat icon
-  - Click "Troubleshooting Information" to expand, and copy that information into the appropriate github issue.
-
-#### Support Forum
-
-For support, questions, or help, visit [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
-
-#### uBO Issues
-
-Report issues with uBO in the [uBO issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues).
-
-#### uBO Lite (uBOL) Issues
-
-Report issues specific to the Manifest Version 3 (MV3) variant in the [uBOL issue tracker](https://github.com/uBlockOrigin/uBOL-home/issues).
-
-#### Similarly-Purposed Blockers
-
-Do **NOT** use any other [similarly-purposed blockers](https://twitter.com/gorhill/status/1033706103782170625) concurrently with uBO. It can result in website breakage or undefined results.
+* [uBlock's `assets.json`](./ublock/assets.json) (internal)
+* [uBlock's `assets.dev.json`](./ublock/assets.dev.json) (internal)
+* [Bad filter lists](./filters/badlists.txt) (internal)
+* uBlock filter lists
+  * [uBlock filters – Ads](./filters/filters.min.txt) (default)
+  * [uBlock filters – Privacy](./filters/privacy.min.txt) (default)
+  * [uBlock filters – Badware risks](./filters/badware.txt) (default)
+  * [uBlock filters – Quick fixes](./filters/quick-fixes.txt) (default)
+  * [uBlock filters – Unbreak](./filters/unbreak.txt) (default)
+  * [uBlock filters – Annoyances](./filters/annoyances.txt)
+  * [Block Outsider Intrusion into LAN](./filters/lan-block.txt)
+* EasyList filter lists
+  * [EasyList – Ads](./thirdparties/easylist.txt) (default)
+  * [EasyPrivacy](./thirdparties/easyprivacy.txt) (default)
+  * EasyList – Annoyances
+    * [EasyList – Annoyances](./thirdparties/easylist-annoyances.txt)
+    * [EasyList – Cookie Notices](./thirdparties/easylist-cookies.txt)
+    * [EasyList – Newsletter Notices](./thirdparties/easylist-newsletters.txt)
+    * [EasyList – Notifications](./thirdparties/easylist-notifications.txt)
+    * [EasyList – Social Widgets](./thirdparties/easylist-social.txt)

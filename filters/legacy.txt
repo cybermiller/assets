@@ -1,5 +1,5 @@
 ! Title: uBlock filters -- Legacy
-! Last modified: %timestamp%
+! Last modified: Thu, 14 Dec 2023 22:10:01 +0000
 ! Expires: 11 days
 ! Description: Filters to address issues specific to legacy versions of uBO.
 ! Homepage: https://github.com/uBlockOrigin/uAssets
